@@ -9,10 +9,10 @@ export function ContactSection() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center mb-16">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-primary">
-            Get in Touch
+            Contáctanos
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Take the first step towards better mental health
+            Da el primer paso hacia una mejor salud mental
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -20,43 +20,43 @@ export function ContactSection() {
             <CardContent className="p-6">
               <form className="space-y-6">
                 <div className="space-y-2">
-                  <Input placeholder="Your Name" />
+                  <Input placeholder="Tu Nombre" />
                 </div>
                 <div className="space-y-2">
-                  <Input type="email" placeholder="Email Address" />
+                  <Input type="email" placeholder="Correo Electrónico" />
                 </div>
                 <div className="space-y-2">
-                  <Input placeholder="Phone Number" />
+                  <Input placeholder="Número de Teléfono" />
                 </div>
                 <div className="space-y-2">
-                  <Textarea placeholder="Your Message" className="min-h-[150px]" />
+                  <Textarea placeholder="Tu Mensaje" className="min-h-[150px]" />
                 </div>
-                <Button className="w-full">Send Message</Button>
+                <Button className="w-full">Enviar Mensaje</Button>
               </form>
             </CardContent>
           </Card>
           <div className="space-y-8">
             <div>
-              <h3 className="text-lg font-semibold mb-4">Office Location</h3>
+              <h3 className="text-lg font-semibold mb-4">Ubicación de la Oficina</h3>
               <p className="text-muted-foreground">
-                123 Therapy Street<br />
-                Suite 456<br />
-                New York, NY 10001
+                Calle de la Terapia 123<br />
+                Oficina 456<br />
+                Ciudad de México, CDMX 10001
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-4">Contact Information</h3>
+              <h3 className="text-lg font-semibold mb-4">Información de Contacto</h3>
               <div className="space-y-2 text-muted-foreground">
-                <p>Phone: (555) 123-4567</p>
-                <p>Email: contact@drjohnson.com</p>
+                <p>Teléfono: (555) 123-4567</p>
+                <p>Email: contacto@milosalgueda.com</p>
               </div>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-4">Office Hours</h3>
+              <h3 className="text-lg font-semibold mb-4">Horario de Atención</h3>
               <div className="space-y-2 text-muted-foreground">
-                <p>Monday - Friday: 9:00 AM - 7:00 PM</p>
-                <p>Saturday: 10:00 AM - 4:00 PM</p>
-                <p>Sunday: Closed</p>
+                <p>Lunes - Viernes: 9:00 AM - 7:00 PM</p>
+                <p>Sábado: 10:00 AM - 4:00 PM</p>
+                <p>Domingo: Cerrado</p>
               </div>
             </div>
           </div>
