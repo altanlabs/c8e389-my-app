@@ -2,23 +2,23 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const services = [
   {
-    title: "Individual Therapy",
-    description: "One-on-one sessions tailored to your unique needs and goals.",
+    title: "Terapia Individual",
+    description: "Sesiones personalizadas adaptadas a tus necesidades específicas y objetivos personales.",
     icon: "🤝",
   },
   {
-    title: "Couples Counseling",
-    description: "Build stronger relationships through effective communication and understanding.",
+    title: "Terapia de Pareja",
+    description: "Construye relaciones más sólidas a través de una comunicación efectiva y comprensión mutua.",
     icon: "💑",
   },
   {
-    title: "Anxiety Treatment",
-    description: "Learn effective strategies to manage and overcome anxiety.",
+    title: "Manejo de Ansiedad",
+    description: "Aprende estrategias efectivas para gestionar y superar la ansiedad en tu vida diaria.",
     icon: "🧘‍♀️",
   },
   {
-    title: "Depression Support",
-    description: "Find your way back to joy and purpose with professional guidance.",
+    title: "Acompañamiento en Depresión",
+    description: "Encuentra tu camino hacia la alegría y el propósito con guía profesional especializada.",
     icon: "🌅",
   },
 ];
@@ -29,10 +29,10 @@ export function ServicesSection() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center mb-16">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-primary">
-            Services Offered
+            Servicios Profesionales
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Professional psychological services tailored to your needs
+            Atención psicológica personalizada para cada etapa de tu vida
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
